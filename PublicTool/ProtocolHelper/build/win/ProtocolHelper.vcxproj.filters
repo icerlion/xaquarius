@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ProtocolHelper">
+      <UniqueIdentifier>{4db5b3b9-2c56-44c5-aad9-6ec40896ff5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtocolHelper\CPlusPlus">
+      <UniqueIdentifier>{9133f695-2a7f-4527-9971-10bf55ef7f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtocolHelper\CSharp">
+      <UniqueIdentifier>{a5aa2e51-e104-4bf8-a134-99c7dcd58003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtocolHelper\ProtocolParse">
+      <UniqueIdentifier>{31a8d010-8d1d-46f2-bb56-4540c473780d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\ProtocolHelper\ProtocolParse\MsgTypeContainer.cpp">
+      <Filter>ProtocolHelper\ProtocolParse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\ProtocolHelper\ProtocolParse\MsgTypeDef.cpp">
+      <Filter>ProtocolHelper\ProtocolParse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\ProtocolHelper\CSharp\CSharpMsgHandlerWriter.cpp">
+      <Filter>ProtocolHelper\CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\ProtocolHelper\CSharp\CSharpProtocolWriter.cpp">
+      <Filter>ProtocolHelper\CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\ProtocolHelper\CSharp\CSharpVerifyWriter.cpp">
+      <Filter>ProtocolHelper\CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\ProtocolHelper\CPlusPlus\CPlusPlusWriter.cpp">
+      <Filter>ProtocolHelper\CPlusPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\ProtocolHelper\CPlusPlus\MsgUtilWriter.cpp">
+      <Filter>ProtocolHelper\CPlusPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\ProtocolHelper\main.cpp">
+      <Filter>ProtocolHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\ProtocolHelper\ProtocolParse\ProtocolParse.cpp">
+      <Filter>ProtocolHelper\ProtocolParse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\ProtocolHelper\ProtocolParse\MsgTypeContainer.h">
+      <Filter>ProtocolHelper\ProtocolParse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ProtocolHelper\ProtocolParse\MsgTypeDef.h">
+      <Filter>ProtocolHelper\ProtocolParse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ProtocolHelper\CSharp\CSharpMsgHandlerWriter.h">
+      <Filter>ProtocolHelper\CSharp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ProtocolHelper\CSharp\CSharpProtocolWriter.h">
+      <Filter>ProtocolHelper\CSharp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ProtocolHelper\CSharp\CSharpVerifyWriter.h">
+      <Filter>ProtocolHelper\CSharp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ProtocolHelper\CPlusPlus\CPlusPlusWriter.h">
+      <Filter>ProtocolHelper\CPlusPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ProtocolHelper\CPlusPlus\MsgUtilWriter.h">
+      <Filter>ProtocolHelper\CPlusPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ProtocolHelper\ProtocolParse\ProtocolParse.h">
+      <Filter>ProtocolHelper\ProtocolParse</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
