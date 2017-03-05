@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HubServerConfig>
+    <ServerItem>
+        <Id>101</Id>
+        <Listener>127.0.0.1:4000</Listener>
+        <EnableStatMsg>true</EnableStatMsg>
+    </ServerItem>
+    <LinkList>
+        <GateServer ServerGroupId="1" Listener="127.0.0.1:6001"/>
+    </LinkList>
+</HubServerConfig>

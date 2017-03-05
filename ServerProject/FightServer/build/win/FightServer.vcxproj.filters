@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FightServer">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="FightServer\Main">
+      <UniqueIdentifier>{34edc083-1d6b-4cfe-98c4-3a9d5f784e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FightServer\MsgHandle">
+      <UniqueIdentifier>{81dc3856-8ac8-4681-a396-d27df8075321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FightServer\Server">
+      <UniqueIdentifier>{b21b0105-cc15-45dc-8d7c-7e11871a2439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FightServer\DBTask">
+      <UniqueIdentifier>{68f0a704-d3af-4568-b627-719ea154d11f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FightServer\HTTPTask">
+      <UniqueIdentifier>{8d2d4657-b725-4258-94ad-adf48029ca13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\FightServer\Main\main.cpp">
+      <Filter>FightServer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\FightServer\Server\FightServer.cpp">
+      <Filter>FightServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\FightServer\MsgHandle\MsgHandleFight.cpp">
+      <Filter>FightServer\MsgHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\FightServer\DBTask\DBTaskDemo.cpp">
+      <Filter>FightServer\DBTask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\FightServer\HTTPTask\HTTPTaskDemo.cpp">
+      <Filter>FightServer\HTTPTask</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\FightServer\MsgHandle\MsgHandleFight.h">
+      <Filter>FightServer\MsgHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\FightServer\Server\FightServer.h">
+      <Filter>FightServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\FightServer\DBTask\DBTaskDemo.h">
+      <Filter>FightServer\DBTask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\FightServer\HTTPTask\HTTPTaskDemo.h">
+      <Filter>FightServer\HTTPTask</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

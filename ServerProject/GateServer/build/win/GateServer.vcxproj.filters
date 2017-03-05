@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GateServer">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GateServer\Main">
+      <UniqueIdentifier>{66bcd73f-baf6-46ba-ad55-57ad5ba0a3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GateServer\MsgHandle">
+      <UniqueIdentifier>{c5730d4d-3213-4cc7-9def-89bf70ef1ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GateServer\Server">
+      <UniqueIdentifier>{5cc0c579-786a-49db-9dba-e561b483df30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\GateServer\Main\main.cpp">
+      <Filter>GateServer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\GateServer\MsgHandle\MsgHandleGate.cpp">
+      <Filter>GateServer\MsgHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\GateServer\Server\GateServer.cpp">
+      <Filter>GateServer\Server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\GateServer\MsgHandle\MsgHandleGate.h">
+      <Filter>GateServer\MsgHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GateServer\Server\GateServer.h">
+      <Filter>GateServer\Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

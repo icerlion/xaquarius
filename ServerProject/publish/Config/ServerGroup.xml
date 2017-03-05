@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServerGroup>
+    <GlobalConfig>
+        <ServerGroupId>1</ServerGroupId>
+        <ServerGroupName>S1-XAquarius</ServerGroupName>
+    </GlobalConfig>
+    <ServerList>
+        <Server Type="GateServer" PrivateListener="127.0.0.1:6001" PublicListener="127.0.0.1:7001" Connector="HubServer;FightServer"/>
+        <Server Type="FightServer" PrivateListener="127.0.0.1:6002" Connector="GateServer"/>
+        <Server Type="HubServer" PrivateListener="127.0.0.1:4000" Connector="GateServer"/>
+    </ServerList>
+    <DBConfig>
+        <Host>127.0.0.1</Host>
+        <Port>3306</Port>
+        <User>root</User>
+        <Password>123456</Password>
+        <DBName>xaquarius</DBName>
+    </DBConfig>
+</ServerGroup>

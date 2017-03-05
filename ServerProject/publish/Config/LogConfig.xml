@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LogConfig>
+    <LogVisitor ClassTypeName="CScreenLogVisitor" LogLevelMask="Notice+Warning+Error+Critical"/>
+    <LogVisitor ClassTypeName="CFileLogVisitor" LogLevelMask="Debug+Notice+Warning+Error+Critical" NamePerfix="Full" LogDir="../logs/" MaxFileSize="100"/>
+    <LogVisitor ClassTypeName="CFileLogVisitor" LogLevelMask="Warning+Error+Critical" NamePerfix="Error" LogDir="../logs/" MaxFileSize="100"/>
+</LogConfig>

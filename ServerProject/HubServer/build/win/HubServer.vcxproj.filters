@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Main">
+      <UniqueIdentifier>{66bcd73f-baf6-46ba-ad55-57ad5ba0a3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MsgHandle">
+      <UniqueIdentifier>{c5730d4d-3213-4cc7-9def-89bf70ef1ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Server">
+      <UniqueIdentifier>{5cc0c579-786a-49db-9dba-e561b483df30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\HubServer\Main\main.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\HubServer\MsgHandle\MsgHandleHub.cpp">
+      <Filter>src\MsgHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\HubServer\Server\HubServer.cpp">
+      <Filter>src\Server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\HubServer\MsgHandle\MsgHandleHub.h">
+      <Filter>src\MsgHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\HubServer\Server\HubServer.h">
+      <Filter>src\Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
