@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MsgDef>
+    <!-- begin include head file for cpp file -->
+    <Include file="AquariusCore/Util/TypeReDef/TypeReDef.hpp"/>
+    <Include file="AquariusCore/Util/TinyUtil/CommonUtil.h"/>
+    <Include file="AquariusCore/Util/TinyUtil/StringUtil.h"/>
+    <Include file="AquariusCore/Logger/AquariusLogger.h"/>
+    <!-- end include head file for cpp file -->
+    <!-- var name of protocol version -->
+    <VersionName value="AQUARIUS_PROTOCOL_VERSION"/>
+    <!-- begin of public msg struct -->
+    <Struct name="KeyValuePair" desc="Key value pair for huge param">
+        <Field name="key" type="char" element_count="32" desc="key"/>
+        <Field name="value" type="char" element_count="450" desc="value"/>
+    </Struct>
+    <Struct name="RandString" desc="rand string value">
+        <Field name="data" type="char" element_count="32" desc="rand string"/>
+    </Struct>
+    <Enum name="EResponseCode" desc="response code enum value">
+        <Field name="Invalid" value="-1" desc="invalid"/>
+        <Field name="G_Success" value="0" desc="success"/>
+        <Field name="G_SystemError" value="1" desc="system error"/>
+        <Field name="G_InvalidParam" value="3" desc="parameter is invalid"/>
+    </Enum>
+    <Struct name="EchoMsg" desc="echo msg, which can't bigger than 512byte">
+        <Field name="protocol_version" type="char" element_count="32" desc="protocol version"/>
+        <Field name="int_param" type="AUINT32" desc="single field, available type: AUINT32, AINT32, AUINT16, AINT16, AUINT8, AINT8"/>
+        <Field name="int_array" type="AUINT32" element_count="10" desc="array param, you can change element_count to set array size"/>
+        <Field name="char_array" type="char" element_count="32" desc="char array, hold string value"/>
+        <Field name="rand_string_field" type="RandString" desc="rand string field, the type can be pre-define struct"/>
+        <Field name="rand_string_array" type="RandString" element_count="4" desc="rand struct array"/>
+        <Field name="enum_value" type="EResponseCode" desc="enum value"/>
+    </Struct>
+    <Struct name="ChatMsg" desc="chat msg">
+        <Field name="content" type="char" element_count="256" desc="chat content"/>
+        <Field name="speaker_id" type="AUINT32" desc="speaker id"/>
+        <Field name="time" type="AUINT32" desc="time"/>
+    </Struct>
+    <!-- end of public msg struct -->
+</MsgDef>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MsgDef>
+    <!-- protocol between client and server -->
+    <Include file="AquariusCore/Util/TypeReDef/TypeReDef.hpp"/>
+    <Include file="AquariusCore/Util/TinyUtil/CommonUtil.h"/>
+    <Include file="AquariusCore/Logger/AquariusLogger.h"/>
+    <Include file="Protocol/ProtocolType.hpp"/>
+    <!-- Comment of msg prefix -->
+    <!-- CG_: client to gate -->
+    <!-- GC_: gate to client -->
+    <!-- End of Comment-->
+    <!-- begin of hands shake -->
+    <Struct name="CG_HeartBeat_Msg" netpkg="true" desc="heart beat package" msgid="0x0003">
+        <Field name="heartbeat_index" type="AUINT16" desc="index of heart beat"/>
+    </Struct>
+    <Struct name="GC_HeartBeat_Msg" netpkg="true" desc="heart beat package" msgid="0x0004">
+        <Field name="heartbeat_index" type="AUINT16" desc="index of heart beat"/>
+        <Field name="server_utc_time" type="AUINT32" desc="server utc time"/>
+    </Struct>
+    <!-- end of hands shake -->
+    <!-- begin of test msg -->
+    <Struct name="CG_Echo_Request" netpkg="true" desc="common struct request">
+        <Field name="data" type="EchoMsg" desc="msg field"/>
+    </Struct>
+    <Struct name="GC_Echo_Response" netpkg="true" desc="common struct response">
+        <Field name="data" type="EchoMsg" desc="msg field"/>
+        <Field name="response_code" type="EResponseCode" desc="ResponseCode"/>
+    </Struct>
+    <Struct name="CG_Chat_Cmd" netpkg="true" monitor="true" desc="send chat cmd to server">
+        <Field name="data" type="ChatMsg" desc="msg field"/>
+    </Struct>
+    <Struct name="GC_Chat_Msg" netpkg="true" desc="send chat msg to client">
+        <Field name="data" type="ChatMsg" desc="chat content"/>
+    </Struct>
+    <!-- end of test msg -->
+</MsgDef>
