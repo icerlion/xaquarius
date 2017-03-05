@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{30d90ecb-c036-4eec-8b91-837cc5911423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\CPPClient">
+      <UniqueIdentifier>{8d6e28bf-073a-4e0d-957f-6a392f947b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\CPPClient\Main">
+      <UniqueIdentifier>{fb9e2c0e-88cd-460b-beb9-7ba771f26286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\CPPClient\Net">
+      <UniqueIdentifier>{bdbcfbd6-9b9c-416b-a8f6-f3e81e0d8584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\CPPClient\Tester">
+      <UniqueIdentifier>{d8d0dfb2-c21c-493c-a508-7a2808daf9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\CPPClient\ClientUser">
+      <UniqueIdentifier>{5ab45c02-6653-4da5-8925-ecb73cf015de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\CPPClient\Net\ClientTCPSession.cpp">
+      <Filter>include\CPPClient\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\CPPClient\Net\HandleServerMsg.cpp">
+      <Filter>include\CPPClient\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\CPPClient\Main\main.cpp">
+      <Filter>include\CPPClient\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\CPPClient\Tester\TestRunner.cpp">
+      <Filter>include\CPPClient\Tester</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\CPPClient\ClientUser\ClientUser.cpp">
+      <Filter>include\CPPClient\ClientUser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\CPPClient\Net\ClientTCPSession.h">
+      <Filter>include\CPPClient\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CPPClient\Net\HandleServerMsg.h">
+      <Filter>include\CPPClient\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CPPClient\Tester\TestRunner.h">
+      <Filter>include\CPPClient\Tester</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CPPClient\ClientUser\ClientUser.h">
+      <Filter>include\CPPClient\ClientUser</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
