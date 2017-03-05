@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include\AquariusCore">
+      <UniqueIdentifier>{cb8eea6e-2c42-4edc-99cd-712243727799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine">
+      <UniqueIdentifier>{da91b72b-10d1-4026-a789-5e9f1fb5bcbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine\Config">
+      <UniqueIdentifier>{52f17dc6-54b2-46a8-94b5-884f92abaf39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine\Connector">
+      <UniqueIdentifier>{c2e71aba-83f3-4323-b84e-e3ccedd23bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine\Listener">
+      <UniqueIdentifier>{5329b316-9b15-4668-b92d-4e5abddaf9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine\Msg">
+      <UniqueIdentifier>{bfec4e08-e2fc-40d8-b5a5-db1ed7f1a8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine\Server">
+      <UniqueIdentifier>{ce69b510-bb17-4932-bbf8-ed02a6c80c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine\Session">
+      <UniqueIdentifier>{4f47503b-7069-4f02-9783-e96bb6f0f755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine\Task">
+      <UniqueIdentifier>{58091a1e-bf96-4e98-8e50-97d977021d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine\Task\Base">
+      <UniqueIdentifier>{ef4b3f1f-5ac3-4e7f-b52f-fe577f9fe286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine\Task\DBController">
+      <UniqueIdentifier>{58158006-4385-4c5f-8cc7-fb2ba180c406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine\Task\HTTPController">
+      <UniqueIdentifier>{f4f736a9-8d17-41b1-b3b7-37b9686750fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Engine\Timer">
+      <UniqueIdentifier>{f16e14b9-6ccb-482b-b671-7f64451fccc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Logger">
+      <UniqueIdentifier>{f956a99b-6a3c-4469-b833-801ecfb8af9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Logger\LogConfig">
+      <UniqueIdentifier>{7675742a-87cd-4f15-97fe-86ba0ba9053a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Logger\LogType">
+      <UniqueIdentifier>{fcaefdd0-1b20-4832-82ab-547662150ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Logger\LogVisitor">
+      <UniqueIdentifier>{ac926e71-372c-4213-889c-e5fd3b744e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Util">
+      <UniqueIdentifier>{082fd34d-083d-40a4-8670-5177d7f006ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Util\Dump">
+      <UniqueIdentifier>{5258214e-2896-4f71-8c13-646a4b4243d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Util\MemoryCache">
+      <UniqueIdentifier>{643e7167-6611-40de-bc3f-455c6322619b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Util\ObjPool">
+      <UniqueIdentifier>{ae434fb9-79c6-4363-b56a-6924d26c11b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Util\Singleton">
+      <UniqueIdentifier>{49714a21-2a11-409e-b61d-29c230c5792d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Util\TypeReDef">
+      <UniqueIdentifier>{e55701bd-737b-430b-8b47-6efb696698b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Util\TinyUtil">
+      <UniqueIdentifier>{e3b3e479-47b8-42d6-bc20-0e3297a81dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AquariusCore\Util\HTTPHelper">
+      <UniqueIdentifier>{f1822c29-f802-40b0-8ef2-a66e9612d275}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\AquariusCore\Util\Dump\Dumper.cpp">
+      <Filter>include\AquariusCore\Util\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Util\TinyUtil\CommonUtil.cpp">
+      <Filter>include\AquariusCore\Util\TinyUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Util\TinyUtil\RandUtil.cpp">
+      <Filter>include\AquariusCore\Util\TinyUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Util\TinyUtil\StringUtil.cpp">
+      <Filter>include\AquariusCore\Util\TinyUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Util\TinyUtil\TimeUtil.cpp">
+      <Filter>include\AquariusCore\Util\TinyUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Config\HubServerConfig.cpp">
+      <Filter>include\AquariusCore\Engine\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Config\ServerGroupConfig.cpp">
+      <Filter>include\AquariusCore\Engine\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Connector\TCPConnector.cpp">
+      <Filter>include\AquariusCore\Engine\Connector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Connector\TCPConnectorManager.cpp">
+      <Filter>include\AquariusCore\Engine\Connector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Listener\TCPListener.cpp">
+      <Filter>include\AquariusCore\Engine\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Msg\MsgDispatch.cpp">
+      <Filter>include\AquariusCore\Engine\Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Msg\MsgHandlerTable.cpp">
+      <Filter>include\AquariusCore\Engine\Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Msg\MsgStatistic.cpp">
+      <Filter>include\AquariusCore\Engine\Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Msg\ReceivedDataHandler.cpp">
+      <Filter>include\AquariusCore\Engine\Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Server\AquariusServer.cpp">
+      <Filter>include\AquariusCore\Engine\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Session\TCPSessionManager.cpp">
+      <Filter>include\AquariusCore\Engine\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Timer\TimerManager.cpp">
+      <Filter>include\AquariusCore\Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Task\DBController\DBTableStruct.cpp">
+      <Filter>include\AquariusCore\Engine\Task\DBController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Task\DBController\MySQLConnection.cpp">
+      <Filter>include\AquariusCore\Engine\Task\DBController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Task\Base\TaskController.cpp">
+      <Filter>include\AquariusCore\Engine\Task\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Task\Base\TaskSwap.cpp">
+      <Filter>include\AquariusCore\Engine\Task\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Logger\AquariusLogger.cpp">
+      <Filter>include\AquariusCore\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Logger\LogVisitor\FileLogVisitor.cpp">
+      <Filter>include\AquariusCore\Logger\LogVisitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Logger\LogVisitor\ScreenLogVisitor.cpp">
+      <Filter>include\AquariusCore\Logger\LogVisitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Logger\LogConfig\LogConfig.cpp">
+      <Filter>include\AquariusCore\Logger\LogConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Session\TCPSession.cpp">
+      <Filter>include\AquariusCore\Engine\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\AquariusCore\Util\HTTPHelper\HTTPHelper.cpp">
+      <Filter>include\AquariusCore\Util\HTTPHelper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\AquariusCore\Util\Dump\Dumper.h">
+      <Filter>include\AquariusCore\Util\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Util\TinyUtil\CommonUtil.h">
+      <Filter>include\AquariusCore\Util\TinyUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Util\TinyUtil\FileSystemUtil.hpp">
+      <Filter>include\AquariusCore\Util\TinyUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Util\TinyUtil\RandUtil.h">
+      <Filter>include\AquariusCore\Util\TinyUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Util\TinyUtil\StringUtil.h">
+      <Filter>include\AquariusCore\Util\TinyUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Util\TinyUtil\TimeUtil.h">
+      <Filter>include\AquariusCore\Util\TinyUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Util\TypeReDef\TypeReDef.hpp">
+      <Filter>include\AquariusCore\Util\TypeReDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Util\MemoryCache\MemoryCache.hpp">
+      <Filter>include\AquariusCore\Util\MemoryCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Util\Singleton\ISingleton.hpp">
+      <Filter>include\AquariusCore\Util\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Util\ObjPool\ObjectPool.hpp">
+      <Filter>include\AquariusCore\Util\ObjPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Config\HubServerConfig.h">
+      <Filter>include\AquariusCore\Engine\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Config\ServerGroupConfig.h">
+      <Filter>include\AquariusCore\Engine\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Config\ServerItemDef.hpp">
+      <Filter>include\AquariusCore\Engine\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Connector\TCPConnector.h">
+      <Filter>include\AquariusCore\Engine\Connector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Connector\TCPConnectorManager.h">
+      <Filter>include\AquariusCore\Engine\Connector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Listener\TCPListener.h">
+      <Filter>include\AquariusCore\Engine\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Msg\MsgDispatch.h">
+      <Filter>include\AquariusCore\Engine\Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Msg\MsgHandlerTable.h">
+      <Filter>include\AquariusCore\Engine\Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Msg\MsgStatistic.h">
+      <Filter>include\AquariusCore\Engine\Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Msg\ReceivedDataHandler.h">
+      <Filter>include\AquariusCore\Engine\Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Server\AquariusServer.h">
+      <Filter>include\AquariusCore\Engine\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Session\TCPSessionManager.h">
+      <Filter>include\AquariusCore\Engine\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Timer\TimerManager.h">
+      <Filter>include\AquariusCore\Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\HTTPController\HTTPTask.hpp">
+      <Filter>include\AquariusCore\Engine\Task\HTTPController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\HTTPController\HTTPTaskController.hpp">
+      <Filter>include\AquariusCore\Engine\Task\HTTPController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\DBController\DBTableStruct.h">
+      <Filter>include\AquariusCore\Engine\Task\DBController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\DBController\DBTask.hpp">
+      <Filter>include\AquariusCore\Engine\Task\DBController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\DBController\DBTaskController.hpp">
+      <Filter>include\AquariusCore\Engine\Task\DBController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\DBController\MySQLConnection.h">
+      <Filter>include\AquariusCore\Engine\Task\DBController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\Base\ITask.hpp">
+      <Filter>include\AquariusCore\Engine\Task\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\Base\TaskController.h">
+      <Filter>include\AquariusCore\Engine\Task\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\Base\TaskSwap.h">
+      <Filter>include\AquariusCore\Engine\Task\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Logger\AquariusLogger.h">
+      <Filter>include\AquariusCore\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Logger\LogVisitor\FileLogVisitor.h">
+      <Filter>include\AquariusCore\Logger\LogVisitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Logger\LogVisitor\ILogVisitor.hpp">
+      <Filter>include\AquariusCore\Logger\LogVisitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Logger\LogVisitor\ScreenLogVisitor.h">
+      <Filter>include\AquariusCore\Logger\LogVisitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Logger\LogType\LogType.hpp">
+      <Filter>include\AquariusCore\Logger\LogType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Logger\LogConfig\LogConfig.h">
+      <Filter>include\AquariusCore\Logger\LogConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Session\TCPSession.h">
+      <Filter>include\AquariusCore\Engine\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AquariusCore\Util\HTTPHelper\HTTPHelper.h">
+      <Filter>include\AquariusCore\Util\HTTPHelper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

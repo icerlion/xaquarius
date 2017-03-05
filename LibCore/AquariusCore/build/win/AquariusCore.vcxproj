@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Config\HubServerConfig.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Config\ServerGroupConfig.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Connector\TCPConnector.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Connector\TCPConnectorManager.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Listener\TCPListener.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Msg\MsgDispatch.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Msg\MsgHandlerTable.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Msg\MsgStatistic.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Msg\ReceivedDataHandler.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Server\AquariusServer.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Session\TCPSession.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Session\TCPSessionManager.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Task\Base\TaskController.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Task\Base\TaskSwap.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Task\DBController\DBTableStruct.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Task\DBController\MySQLConnection.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Engine\Timer\TimerManager.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Logger\AquariusLogger.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Logger\LogConfig\LogConfig.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Logger\LogVisitor\FileLogVisitor.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Logger\LogVisitor\ScreenLogVisitor.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Util\Dump\Dumper.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Util\HTTPHelper\HTTPHelper.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Util\TinyUtil\CommonUtil.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Util\TinyUtil\RandUtil.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Util\TinyUtil\StringUtil.cpp" />
+    <ClCompile Include="..\..\include\AquariusCore\Util\TinyUtil\TimeUtil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Config\HubServerConfig.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Config\ServerGroupConfig.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Config\ServerItemDef.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Connector\TCPConnector.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Connector\TCPConnectorManager.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Listener\TCPListener.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Msg\MsgDispatch.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Msg\MsgHandlerTable.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Msg\MsgStatistic.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Msg\ReceivedDataHandler.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Server\AquariusServer.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Session\TCPSession.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Session\TCPSessionManager.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\Base\ITask.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\Base\TaskController.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\Base\TaskSwap.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\DBController\DBTableStruct.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\DBController\DBTask.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\DBController\DBTaskController.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\DBController\MySQLConnection.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\HTTPController\HTTPTask.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Task\HTTPController\HTTPTaskController.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Engine\Timer\TimerManager.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Logger\AquariusLogger.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Logger\LogConfig\LogConfig.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Logger\LogType\LogType.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Logger\LogVisitor\FileLogVisitor.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Logger\LogVisitor\ILogVisitor.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Logger\LogVisitor\ScreenLogVisitor.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Util\Dump\Dumper.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Util\HTTPHelper\HTTPHelper.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Util\MemoryCache\MemoryCache.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Util\ObjPool\ObjectPool.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Util\Singleton\ISingleton.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Util\TinyUtil\CommonUtil.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Util\TinyUtil\FileSystemUtil.hpp" />
+    <ClInclude Include="..\..\include\AquariusCore\Util\TinyUtil\RandUtil.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Util\TinyUtil\StringUtil.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Util\TinyUtil\TimeUtil.h" />
+    <ClInclude Include="..\..\include\AquariusCore\Util\TypeReDef\TypeReDef.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A719E61F-37B1-4F27-BA52-7E13602F0D17}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AquariusCore</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)..\..\publish\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)..\..\bin\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0600;MARKUP_STL;_AFXDLL;WIN32;_DEBUG;_LIB;BUILDING_LIBCURL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>\boost_1_62_0;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\..\LibThird\MySQL-5.6\include;$(ProjectDir)..\..\..\..\LibThird\curl-7.36.0\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4091</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
