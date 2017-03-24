@@ -125,7 +125,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_WIN32_WINNT=0x0600;MARKUP_STL;_AFXDLL;WIN32;_DEBUG;_LIB;BUILDING_LIBCURL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>\boost_1_62_0;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\..\LibThird\MySQL-5.6\include;$(ProjectDir)..\..\..\..\LibThird\curl-7.36.0\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\..\LibThird\MySQL-5.6\include;$(ProjectDir)..\..\..\..\LibThird\curl-7.36.0\include;$(ProjectDir)..\..\..\..\LibThird\boost_1_62_0</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4091</DisableSpecificWarnings>
     </ClCompile>
     <Link>

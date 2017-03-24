@@ -71,7 +71,7 @@
       <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_WIN32_WINNT=0x0600;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>\boost_1_62_0;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\..\Protocol\CPlusPlus;$(ProjectDir)..\..\..\..\LibCore\AquariusCore\include;$(ProjectDir)..\..\..\..\LibThird\MySQL-5.6\include;$(ProjectDir)..\..\..\..\LibThird\curl-7.36.0\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\..\Protocol\CPlusPlus;$(ProjectDir)..\..\..\..\LibCore\AquariusCore\include;$(ProjectDir)..\..\..\..\LibThird\MySQL-5.6\include;$(ProjectDir)..\..\..\..\LibThird\curl-7.36.0\include;$(ProjectDir)..\..\..\..\LibThird\boost_1_62_0</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>
       </DisableSpecificWarnings>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -80,7 +80,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>\boost_1_62_0\stage\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\..\LibThird\boost_1_62_0\stage\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>$(ProjectDir)..\..\..\..\LibCore\AquariusCore\publish\$(ConfigurationName)\AquariusCore.lib;$(ProjectDir)..\..\..\..\LibThird\MySQL-5.6\Lib\libmysql.lib;$(ProjectDir)..\..\..\..\LibThird\curl-7.36.0\publish\$(ConfigurationName)\libcurl.lib;$(ProjectDir)..\..\..\..\LibThird\OpenSSL-1.0.2d\lib\libeay32.lib;$(ProjectDir)..\..\..\..\LibThird\OpenSSL-1.0.2d\lib\ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
